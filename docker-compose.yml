@@ -3,10 +3,11 @@ services:
     container_name: lab_database
     restart: unless-stopped
     image: postgres:16
+    build: .
     environment:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: lab6
-      POSTGRES_DB: lab6
+      POSTGRES_DB: tienda_db
     ports:
       - 5432:5432
     volumes:
