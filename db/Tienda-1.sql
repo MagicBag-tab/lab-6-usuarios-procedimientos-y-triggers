@@ -2,10 +2,6 @@
 -- BASE DE DATOS
 -- =========================================
 
-DROP DATABASE IF EXISTS tienda_db;
-CREATE DATABASE tienda_db;
-
-
 -- =========================================
 -- TABLAS
 -- =========================================
